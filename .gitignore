@@ -1,0 +1,22 @@
+# macOS and editor files
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and environment variables
+.env
+kaggle.json
+.kaggle/
+
+# Temporary Kaggle export folders
+_kaggle*/
+
+# Generated datasets, models and intermediate outputs
+data/
